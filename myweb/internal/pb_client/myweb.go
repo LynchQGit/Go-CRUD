@@ -1,11 +1,10 @@
 package main
 
-
 import (
 	"context"
-	"log"
-	"google.golang.org/grpc"
 	pb "github.com/LynchQGit/Go-CRUD/myweb/internal/pb" // 确保导入路径与你的项目匹配
+	"google.golang.org/grpc"
+	"log"
 )
 
 func main() {

@@ -9,5 +9,5 @@ func RunGinServer() {
 			"message": "pong",
 		})
 	})
-	r.Run()  // 监听并在
+	r.Run() // 监听并在
 }

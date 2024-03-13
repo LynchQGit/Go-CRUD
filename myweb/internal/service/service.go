@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/LynchQGit/Go-CRUD/myweb/internal/pb"
 	"context"
+	"github.com/LynchQGit/Go-CRUD/myweb/internal/pb"
 )
 
 type GreeterService struct {

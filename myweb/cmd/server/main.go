@@ -9,8 +9,8 @@ import (
 	"net"
 )
 
-func main()  {
-	go server.RunGinServer()  // 启动gin服务
+func main() {
+	go server.RunGinServer() // 启动gin服务
 
 	listen, err := net.Listen("tcp", ":50051")
 	if err != nil {
